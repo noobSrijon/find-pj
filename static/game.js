@@ -24,6 +24,7 @@ const els = {
     distT: document.getElementById('distanceText'),
     ptsT: document.getElementById('pointsText'),
     actualLocT: document.getElementById('actualLocationText'),
+    otherLocsT: document.getElementById('otherLocationsText'),
     nextRoundBtn: document.getElementById('nextRoundButton'),
     restartBtn: document.getElementById('restartButton')
 };
@@ -318,6 +319,13 @@ function showResult(dist, pts, actualLoc) {
     els.distT.textContent = `${Math.round(dist)} km`;
     els.ptsT.textContent = pts.toLocaleString();
     els.actualLocT.textContent = actualLoc;
+    
+    const rnd = gd.rounds[cr];
+    const otherLocs = rnd.locations
+        .filter(loc => loc.name !== actualLoc)
+        .map(loc => loc.name)
+        .join(' : ');
+    els.otherLocsT.textContent = `Other locations: ${otherLocs}`;
 }
 
 function nextRnd() {

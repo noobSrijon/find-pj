@@ -1,7 +1,7 @@
 GAME_DATA = {
     "rounds": [
         {
-            "riddle": "Where iron rises to kiss the clouds, and lovers lock their promises on bridges below. A city of lights where revolution once echoed through the streets.",
+            "riddle": "I'm in the city of the famous Tower, where metal touches the sky and couples put love locks on bridges. This bright city once had a famous revolution.",
             "locations": [
                 {
                     "name": "Champ de Mars, Paris",
@@ -21,7 +21,7 @@ GAME_DATA = {
             ]
         },
         {
-            "riddle": "Red square meets onion domes in a place where czars once ruled. Colorful spires twist toward heaven in the heart of Mother Russia.",
+            "riddle": "I’m in a famous place, with a famous square with colorful onion-shaped domes. Long ago, czars ruled this land.",
             "locations": [
                 {
                     "name": "Palace Square, St Petersburg",
@@ -41,7 +41,7 @@ GAME_DATA = {
             ]
         },
         {
-            "riddle": "Liberty stands tall with torch held high, welcoming the tired and poor. Green copper skin watches over a harbor where dreams arrive by boat.",
+            "riddle": "I’m near a giant green statue holding a torch high in the air, welcoming people to America at the edge of a busy harbor.",
             "locations": [
                 {
                     "name": "Copacabana Beach, Rio",
@@ -61,7 +61,7 @@ GAME_DATA = {
             ]
         },
         {
-            "riddle": "Opera sails billow by the harbor where convicts once landed. A bridge arches over waters in the land down under.",
+            "riddle": "I’m by a harbor, where a white opera house looks like big sails and a famous bridge crosses the water.",
             "locations": [
                 {
                     "name": "Marina Bay Sands, Singapore",
@@ -81,7 +81,7 @@ GAME_DATA = {
             ]
         },
         {
-            "riddle": "A wall that once divided hearts now covered in colorful stories. Where the east met west, and freedom rang through checkpoints torn down.",
+            "riddle": "I’m at a long wall once used to divide a city. Now it’s covered in colorful art and stands where east and west once met.",
             "locations": [
                 {
                     "name": "Mutianyu, Great Wall",
@@ -101,7 +101,7 @@ GAME_DATA = {
             ]
         },
         {
-            "riddle": "Golden gate spans a foggy bay in a city of hills and cable cars. Tech giants were born in valleys near this crimson suspension marvel.",
+            "riddle": "I’m in a hilly city with cable cars and a big red bridge stretching over a foggy bay, close to a famous tech valley.",
             "locations": [
                 {
                     "name": "Brooklyn Bridge Walkway",
@@ -121,7 +121,7 @@ GAME_DATA = {
             ]
         },
         {
-            "riddle": "Gods and gladiators once battled here while crowds roared for blood. Stone arches echo with the ghosts of ancient entertainment.",
+            "riddle": "I’m at an ancient arena where gladiators once fought while huge crowds watched from stone seats.",
             "locations": [
                 {
                     "name": "Acropolis Hill, Athens",
@@ -141,7 +141,7 @@ GAME_DATA = {
             ]
         },
         {
-            "riddle": "Neon lights and shibuya crossing where millions walk daily. Cherry blossoms frame temples in this electric megacity of the rising sun.",
+            "riddle": "I’m in a buzzing city full of neon signs, busy crosswalks, and cherry blossoms near temples.",
             "locations": [
                 {
                     "name": "Myeongdong Street, Seoul",
@@ -161,29 +161,27 @@ GAME_DATA = {
             ]
         },
         {
-        "riddle": "A symbol of eternal love, this majestic white marble monument stands beside the Yamuna River.",
-        "locations": [
-            {
-                "name": "Gulshan 2, Bangladesh",
-                "coordinates": "23.795062,90.4141775",
-                "is_correct": False
-            },
-            {
-                "name": "Taj Mahal, Agra, India",
-                "coordinates": "27.1740913,78.0419952",
-                "is_correct": True
-            },
-            {
-                "name": "Victoria Park, Kolkata, India",
-                "coordinates": "22.5439016,88.342099",
-                "is_correct": False
-            }
-        ]
+            "riddle": "I’m at a big white marble monument by the Yamuna River, built as a symbol of eternal love.",
+            "locations": [
+                {
+                    "name": "Gulshan 2, Bangladesh",
+                    "coordinates": "23.795062,90.4141775",
+                    "is_correct": False
+                },
+                {
+                    "name": "Taj Mahal, Agra, India",
+                    "coordinates": "27.1740913,78.0419952",
+                    "is_correct": True
+                },
+                {
+                    "name": "Victoria Park, Kolkata, India",
+                    "coordinates": "22.5439016,88.342099",
+                    "is_correct": False
+                }
+            ]
         }
-
     ],
     "intro_text": "PJ has been stolen and taken to a random place in the world… The thief left behind a paper with three locations and a riddle. Find where PJ is.",
     "correct_message": "PJ FOUND!",
     "wrong_message": "WRONG LOCATION"
 }
-

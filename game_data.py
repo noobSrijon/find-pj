@@ -121,7 +121,7 @@ GAME_DATA = {
             ]
         },
         {
-            "riddle": "Gods and gladiators once battled here while crowds roared for blood. Stone arches echo with the ghosts of ancient Rome's entertainment.",
+            "riddle": "Gods and gladiators once battled here while crowds roared for blood. Stone arches echo with the ghosts of ancient entertainment.",
             "locations": [
                 {
                     "name": "Acropolis Hill, Athens",
@@ -159,7 +159,28 @@ GAME_DATA = {
                     "is_correct": False
                 }
             ]
+        },
+        {
+        "riddle": "A symbol of eternal love, this majestic white marble monument stands beside the Yamuna River.",
+        "locations": [
+            {
+                "name": "Gulshan 2, Bangladesh",
+                "coordinates": "23.795062,90.4141775",
+                "is_correct": False
+            },
+            {
+                "name": "Taj Mahal, Agra, India",
+                "coordinates": "27.1740913,78.0419952",
+                "is_correct": True
+            },
+            {
+                "name": "Victoria Park, Kolkata, India",
+                "coordinates": "22.5439016,88.342099",
+                "is_correct": False
+            }
+        ]
         }
+
     ],
     "intro_text": "PJ has been stolen and taken to a random place in the world… The thief left behind a paper with three locations and a riddle. Find where PJ is.",
     "correct_message": "PJ FOUND!",

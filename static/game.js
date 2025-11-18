@@ -14,6 +14,7 @@ const els = {
     introT: document.getElementById('introText'),
     introLoading: document.getElementById('introLoading'),
     continueBtn: document.getElementById('continueButton'),
+    letsGoBtn: document.getElementById('letsGoButton'),
     locCnt: document.getElementById('locationCounter'),
     panoEl: document.getElementById('streetViewPano'),
     nextLocBtn: document.getElementById('nextLocationButton'),
@@ -32,6 +33,7 @@ const els = {
 const scrns = {
     startScr: document.getElementById('startScreen'),
     introScr: document.getElementById('introScreen'),
+    instructionScr: document.getElementById('instructionScreen'),
     exploreScr: document.getElementById('exploreScreen'),
     riddleScr: document.getElementById('riddleScreen'),
     resultScr: document.getElementById('resultScreen')
@@ -119,6 +121,10 @@ function animateIntroText() {
             els.continueBtn.style.display = 'inline-block';
         }
     }, 30);
+}
+
+function showInstructionScreen() {
+    showScr('instructionScr');
 }
 
 function startExploration() {
@@ -367,7 +373,8 @@ function restartGame() {
 }
 
 els.startBtn.addEventListener('click', startGame);
-els.continueBtn.addEventListener('click', startExploration);
+els.continueBtn.addEventListener('click', showInstructionScreen);
+els.letsGoBtn.addEventListener('click', startExploration);
 els.nextLocBtn.addEventListener('click', nextLoc);
 els.guessBtn.addEventListener('click', submitGuess);
 els.skipBtn.addEventListener('click', skipRnd);

@@ -74,6 +74,39 @@
         </div>
     </div>
 
+    <div id="instructionScreen" class="fixed inset-0 flex items-center justify-center game-bg hide" style="display: none;">
+        <div class="absolute inset-0 game-overlay"></div>
+        <div class="relative z-10 max-w-5xl mx-auto px-4 md:px-8 py-8 overflow-y-auto">
+            <div class="bg-black/70 backdrop-blur-md border-4 border-amber-400/50 box-glow p-6 md:p-10 my-8">
+                <div class="mb-6">
+                    <div class="inline-block border-b-4 border-amber-400 pb-2">
+                        <h2 class="game-font text-2xl md:text-4xl text-amber-300 font-bold tracking-wider">
+                            HOW TO PLAY
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-6 md:gap-8 items-start md:items-center mb-6">
+                    <div class="flex-shrink-0 mx-auto md:mx-0">
+                        <img src="/static/note.png" alt="The Thief's Note" class="rounded-lg border-4 border-amber-400/50 shadow-2xl w-64 md:w-80">
+                    </div>
+                    
+                    <div class="flex-1 text-left">
+                        <p class="game-text text-base md:text-lg text-white leading-relaxed tracking-wide">
+                            The thief accidentally left a note with three favorite locations, and PJ is hidden in one of them. Rhodes Campus Safety has created a portal that will take you to each place in Street View. At each location, walk around, look carefully, <strong class="text-amber-300">guess where you are</strong>, and remember what you see. After you've visited all three places, you'll get a riddle. Use the riddle and your observations to figure out which of the three locations PJ is in. Good luck, PJ is counting on you! 🕵️‍♀️✨
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button id="letsGoButton" class="btn-game px-12 md:px-16 py-4 md:py-5 bg-gradient-to-r from-amber-600 to-amber-500 text-white text-lg md:text-2xl game-font font-bold tracking-widest border-4 border-amber-300 shadow-2xl hover:from-amber-500 hover:to-amber-400 transition-all duration-300 hover:scale-110">
+                        <span class="relative z-10">▶ LET'S GO</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="exploreScreen" class="fixed inset-0 bg-black hide" style="display: none;">
         <div class="relative w-full h-full">
             <div id="streetViewPano" class="absolute inset-0 w-full h-full"></div>
